@@ -9,7 +9,7 @@ An offline desktop app that turns a trader's sales records into analytics, month
 - **Dashboard:** top-selling product, highest-spending customer and peak sales month at a glance, plus a custom report generator with filters and support for user-defined fields.
 - **Trends:** revenue trend chart and a month-over-month breakdown with percentage change.
 - **Sheet:** a spreadsheet view with formulas (SUM, AVERAGE, COUNT, COUNTA, MIN, MAX, IF, SUMIF, COUNTIF and lookups). Load transactions, save edits back to the database, or export to `.xlsx`.
-- **Batches:** track each import batch and its items by code, with remaining vs initial quantity, sell and return actions, and search.
+- **Batches:** track each import batch and its items by auto-generated traceable codes, with remaining vs initial quantity. Sales and returns update stock and are recorded as transactions, so batch activity feeds the dashboard and trends. Deleting a batch keeps its sales history.
 - **Excel import:** bring in existing sales records from an Excel file.
 
 | Trends | Sheet | Batches |
