@@ -744,6 +744,7 @@ function App() {
         .sidebar{width:200px; background:#0E1728; border-right:1px solid #1A2540; padding:1.5rem 1rem; flex-shrink:0; display:flex; flex-direction:column;}
         .logo{font-weight:700; font-size:15px; padding-bottom:1.5rem; margin-bottom:1rem; border-bottom:1px solid #1A2540;}
         .logo span{color:#38BDF8;}
+        .logo-img{width:24px; height:24px; border-radius:6px; vertical-align:middle; margin-right:8px;}
         .nav{display:flex; flex-direction:column; gap:2px;}
         .nav-item{padding:9px 10px; border-radius:6px; color:#8B98B4; font-size:13.5px; cursor:pointer;}
         .nav-item:hover{background:rgba(255,255,255,0.03); color:#E7ECF6;}
@@ -790,7 +791,7 @@ function App() {
       `}</style>
 
       <div className="sidebar">
-        <div className="logo">TRADE<span>PULSE</span></div>
+        <div className="logo"><img src="/icon.png" alt="" className="logo-img" />TRADE<span>PULSE</span></div>
         <div className="nav">
           <div className={`nav-item ${view === "dashboard" ? "active" : ""}`} onClick={() => setView("dashboard")}>Dashboard</div>
           <div className={`nav-item ${view === "trends" ? "active" : ""}`} onClick={() => setView("trends")}>Trends</div>
