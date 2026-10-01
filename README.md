@@ -9,7 +9,8 @@ TRADEPULSE is built with [Tauri](https://tauri.app/) (Rust backend), React + Typ
 ## Table of Contents
 
 1. [Overview](#overview)
-2. [Feature Tour](#feature-tour)
+2. [Screenshots](#screenshots)
+3. [Feature Tour](#feature-tour)
    - [Dashboard](#1-dashboard)
    - [Custom Fields](#2-custom-fields)
    - [Excel Import](#3-excel-import)
@@ -44,6 +45,30 @@ TRADEPULSE is aimed at small traders and shop owners who keep their sales record
 - **Track stock in batches**, with traceable item codes, sales and returns that automatically adjust remaining quantity, and each sale recorded in your transaction history.
 
 Currency is displayed as **GHS** (Ghana cedis) by default.
+
+---
+
+## Screenshots
+
+### Dashboard
+Headline metrics plus the custom report generator, with filters, report views, inline editing and Excel export.
+
+![TRADEPULSE Dashboard](screenshots/dashboard.png)
+
+### Trends
+Month-over-month revenue chart and breakdown table, with growth and decline colour-coded.
+
+![TRADEPULSE Trends](screenshots/trends.png)
+
+### Sheet
+The built-in spreadsheet with the function panel, name box, formula bar and transaction data loaded.
+
+![TRADEPULSE Sheet](screenshots/sheet.png)
+
+### Batches
+Batch detail view with item search, remaining and initial stock, and Sell, Return and delete actions per item.
+
+![TRADEPULSE Batches](screenshots/batches.png)
 
 ---
 
@@ -380,8 +405,8 @@ All commands are exposed to the frontend via `invoke(...)` and registered in `li
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url> tradepulse
-cd tradepulse
+git clone https://github.com/alfredx777/tradepulse-dashboard
+cd tradepulse-dashboard
 
 # 2. Install frontend dependencies
 npm install
